@@ -12,7 +12,6 @@ function validate() {
         
         document.getElementById("t2").href = "https://i.imgur.com/xnmpNDh.png";
         
-        document.getElementById("t1).textContent = "ss then send kt laici.";
 
     } else {
         alert("????????? ????");
