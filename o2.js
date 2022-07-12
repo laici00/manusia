@@ -54,7 +54,7 @@ function v8() {
         document.getElementById("coor").textContent = "//Chapter II Completed";
         document.getElementById("yellow").textContent = "<o>";
         document.getElementById("yellow").style = "color: yellow;";
-        document.getElementById("yellow").href = "http://www.youtube.com";
+        document.getElementById("yellow").href = "o3.html";
         
     }
 
