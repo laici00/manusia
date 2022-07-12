@@ -45,7 +45,7 @@ function validate() {
         document.getElementById("t1").textContent = "//Chapter I completed.";
         document.getElementById("link2").style = "color:yellow";
         document.getElementById("link2").textContent = "<o>";
-        document.getElementById("link2").href = "https://upcdn.io/W142hJkJ3b6ASE2ZzDhiow6";
+        document.getElementById("link2").href = "o2.html";
     }
 
 
