@@ -51,7 +51,7 @@ function v8() {
      if (counter === 7) {
         alert("                                                       <o>");
         document.getElementById("coor1").textContent = null;
-        document.getElementById("coor").textContent = "//Chapter II Completed";
+        document.getElementById("coor").textContent = "//Chapter II Completed.";
         document.getElementById("yellow").textContent = "<o>";
         document.getElementById("yellow").style = "color: yellow;";
         document.getElementById("yellow").href = "o3.html";
