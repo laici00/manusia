@@ -48,7 +48,7 @@ function v7() {
 }
 
 function v8() {
-    if (counter === 0) {
+    if (counter === 7) {
         alert("                                                       <o>");
         document.getElementById("coor1").textContent = null;
         document.getElementById("coor").textContent = "//Chapter II Completed";
