@@ -10,7 +10,7 @@ function validate() {
         alert("???????");
         document.getElementById("t2").textContent = "<o>";
         
-        document.getElementById("t2").href = "https://i.imgur.com/xnmpNDh.png";
+        document.getElementById("t2").href = "o4";
 
     } else {
         alert("????????? ????");
