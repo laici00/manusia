@@ -54,7 +54,7 @@ function v8() {
         document.getElementById("coor").textContent = "//Chapter II Completed";
         document.getElementById("yellow").textContent = "<o>";
         document.getElementById("yellow").style = "text-decoration: none !important; cursor: pointer; color: yellow;";
-        document.getElementById("yellow").href = "o3.html";
+        document.getElementById("yellow").href = "oblivio.html";
         document.getElementById("coor4").textContent = "test";
 
     }
