@@ -10,7 +10,7 @@ function validate() {
         alert("???????");
         document.getElementById("t2").textContent = "<o>";
         
-        document.getElementById("t2").href = "o4.html";
+        document.getElementById("t2").href = "obduro.html";
         
         document.getElementById("t3").textContent = "//Chapter III Completed.";
 
