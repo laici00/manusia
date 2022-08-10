@@ -14,6 +14,15 @@
 
         }
 
+        h1 {
+            color: red;
+            font-family: 'Inconsolata', monospace;
+            text-align: center;
+            margin-bottom : 5%;
+            font-size : 30px;
+            text-decoration: none;
+        }
+
 
         body {
             background-color : #212121;
@@ -28,13 +37,17 @@
 
     </style>
     <body>
+        <audio src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" id="my_audio" loop="loop" autoplay="autoplay"></audio>
     <center>
+
         <p id="demo"></p>
 
         <a href="http://stackoverflow.com" id="done"></a>
 
         <script>
             var counter = 100;
+            var blur = 1;
+
 
             setInterval(function () {
 
@@ -53,16 +66,42 @@
                 }
                 counter--;
             }, 1000);
+
+
+            window.addEventListener('blur', function () {
+                counter = 100;
+                //what.innerHTML = blur;
+                blur++;
+
+
+                if (blur > 4) {
+                    what.innerHTML = "&lt;o&gt;";
+                    return play();
+
+                }
+
+
+            });
+
+            function play() {
+                var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
+                audio.play();
+            }
+
+
         </script>
 
         <img alt="none" src="https://laici00.github.io/terere-tempus/o.gif" width="220" height="220">
 
+        <h1 id="what"></h1>
+        
         <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/XisJD8V1Rqw?autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="autoplay" ></iframe>
     </center>
 </body>
 </html>
 
 <!-- 
+
 
 Ada teratak di hujung kampung
 Bawah cermin kopak ada kotak
@@ -154,5 +193,5 @@ Bawah cermin kopak ada kotak
 Tersembunyi dalamnya ada tempurung
 Sembunyi bawahnya katak melalak
 
+
 -->
-     
